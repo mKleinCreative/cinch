@@ -11,48 +11,165 @@
 </head>
 
 <body>
-
-  <div class="footer containter">
+  <div class="container">
     <div class="row">
-      <div class="col">
+      <div class="nav row">
         <div class="col">
-          <div class="list-group">
-            <span>Cinch Sports </span>
-            <a href="#" class="list-group-item list-group-item-action list-group-item-light border-0">About Cinch</a>
-            <a href="#" class="list-group-item list-group-item-action list-group-item-light border-0">Cinch Blog</a>
-            <a href="#" class="list-group-item list-group-item-action list-group-item-light border-0">Cinch Store</a>
-            <a href="#" class="list-group-item list-group-item-action list-group-item-light border-0">Developers</a>
-          </div>
+          <nav class="navbar navbar-light br-0">
+            <button class="navbar-toggler" type="button" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          </nav>
         </div>
-        <div class="col">
-          <div class="list-group">
-            <span>Help </span>
-            <a href="#" class="list-group-item list-group-item-action list-group-item-light border-0">Help Center</a>
-            <a href="#" class="list-group-item list-group-item-action list-group-item-light border-0">Video School</a>
-            <a href="#" class="list-group-item list-group-item-action list-group-item-light border-0">FAQ</a>
-            <a href="#" class="list-group-item list-group-item-action list-group-item-light border-0">Forums</a>
-          </div>
-        </div>
-        <div class="col">
-          <div class="list-group">
-            <span>More </span>
-            <a href="#" class="list-group-item list-group-item-action list-group-item-light border-0">Partners</a>
-            <a href="#" class="list-group-item list-group-item-action list-group-item-light border-0">Affiliate Program</a>
-            <a href="#" class="list-group-item list-group-item-action list-group-item-light border-0">Donate</a>
-            <a href="#" class="list-group-item list-group-item-action list-group-item-light border-0">Cinch Sportswear</a>
-          </div>
+        <div class="col search-membership-buttons">
+          <form class="form-inline col">
+            <button class="btn btn-light nav-link border-0 rounded-0">Login</button>
+            <button class="btn nav-link border-0 rounded-0">Sign Up</button>
+          </form>
         </div>
       </div>
-      <div class="col col-md-6">
-        <form>
-          <div class="form-inline row">
-            <div class="col-md-6 mb-3">
-              <label for="Subscribe">Subscribe</label>
-              <input type="email" class="form-control" id="homepage-subscribe-email" placeholder="Enter Your Email">
-            </div>
-            <button type="submit" class="btn btn-dark">SIGN UP</button>
+    </div>
+    <div class="row">
+      <form>
+        <div class="form-row">
+          <div class="form-group col-md-4">
+            <label for="inputSport">Sport</label>
+            <select id="inputSport" class="form-control">
+            <option selected>Choose...</option>
+            <option>...</option>
+          </select>
           </div>
-        </form>
+          <div class="form-group col-md-4">
+            <label for="inputType">Type</label>
+            <select id="inputType" class="form-control">
+            <option selected>Choose...</option>
+            <option>...</option>
+          </select>
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputCity">Location</label>
+            <input type="text" class="form-control" id="inputCity">
+          </div>
+          <div class="form-group col-md-2">
+            <label for="inputZip">Start Date</label>
+            <input type="date" class="form-control" id="inputZip">
+          </div>
+          <div class="form-group">
+            <button class="btn btn-dark">Search</button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="row">
+      <div class="container col">
+        <div class="card mb-3" style="max-width: 20rem;">
+          <div class="card-body text-center">
+            <h4 class="card-title"><img src="../images/Arsenal_FC.svg.png" alt="Arsenal">Arsenal FC</h4>
+            <p class="card-text">July 20-24 9am-3pm</p>
+            <p class="card-text">Ages 5-14</p>
+            <p class="card-text">@ Mirasol Park</p>
+            <p class="card-text">Through our exclusive partnership with Arsenal, our Elite Soccer camps give players unique and privileged access to some
+            of the best coaches and coaching methods in the modern game. Players will improve their technical ability through
+            tried and trusted drills, exercises and scrimmages based on the same philosophy used by the clubs themselves, all
+            under the watchful eye of official Arsenal soccer coaches.</p>
+            <p class="card-text">The camps can accommodate all skill levels and players are grouped together based on ability in order to improve tactical,
+            technical and physical ability. Together with players from all over the US and around the world players hone their
+            skills in a fun and supportive environment for a rewarding experience for all. Kick off your summer with us and
+            go home a better player!</p>
+            <p class="card-text"> $599</p>
+          </div>
+          <button class="btn btn-dark radius-0"> Register</button>
+        </div>
+      </div>
+      <div class="col">
+        <ul class="list-group">
+          <li class="list-group-item">
+            <div class="col">
+              <img src="../images/Arsenal_FC.svg.png" alt="Arsenal">
+            </div>
+            <div class="col">
+              <div class="row">
+                Winter ID Camp
+              </div>
+              <div class="row">
+                Jan 24-28 @ Stub hub center
+              </div>
+            </div>
+          </li>
+          <li class="list-group-item">
+            <div class="col">
+              <img src="../images/Arsenal_FC.svg.png" alt="Arsenal">
+            </div>
+            <div class="col">
+              <div class="row">
+                 Miami Beach ID Camp
+              </div>
+              <div class="row">
+                JUN 16-18 @ miami beach
+              </div>
+            </div>
+          </li>
+          <li class="list-group-item">
+            <div class="col">
+              <img src="../images/Arsenal_FC.svg.png" alt="Arsenal">
+            </div>
+            <div class="col">
+              <div class="row">
+                California ID Camp
+              </div>
+              <div class="row">
+                may 15-19 @ SDSU
+              </div>
+            </div>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="footer containter">
+        <div class="row">
+          <div class="col">
+            <div class="col">
+              <div class="list-group">
+                <span>Cinch Sports </span>
+                <a href="#" class="list-group-item list-group-item-action list-group-item-light border-0">About Cinch</a>
+                <a href="#" class="list-group-item list-group-item-action list-group-item-light border-0">Cinch Blog</a>
+                <a href="#" class="list-group-item list-group-item-action list-group-item-light border-0">Cinch Store</a>
+                <a href="#" class="list-group-item list-group-item-action list-group-item-light border-0">Developers</a>
+              </div>
+            </div>
+            <div class="col">
+              <div class="list-group">
+                <span>Help </span>
+                <a href="#" class="list-group-item list-group-item-action list-group-item-light border-0">Help Center</a>
+                <a href="#" class="list-group-item list-group-item-action list-group-item-light border-0">Video School</a>
+                <a href="#" class="list-group-item list-group-item-action list-group-item-light border-0">FAQ</a>
+                <a href="#" class="list-group-item list-group-item-action list-group-item-light border-0">Forums</a>
+              </div>
+            </div>
+            <div class="col">
+              <div class="list-group">
+                <span>More </span>
+                <a href="#" class="list-group-item list-group-item-action list-group-item-light border-0">Partners</a>
+                <a href="#" class="list-group-item list-group-item-action list-group-item-light border-0">Affiliate Program</a>
+                <a href="#" class="list-group-item list-group-item-action list-group-item-light border-0">Donate</a>
+                <a href="#" class="list-group-item list-group-item-action list-group-item-light border-0">Cinch Sportswear</a>
+              </div>
+            </div>
+          </div>
+          <div class="col col-md-6">
+            <form>
+              <div class="form-inline row">
+                <div class="col-md-6 mb-3">
+                  <label for="Subscribe">Subscribe</label>
+                  <input type="email" class="form-control" id="homepage-subscribe-email" placeholder="Enter Your Email">
+                </div>
+                <button type="submit" class="btn btn-dark">SIGN UP</button>
+              </div>
+            </form>
+          </div>
+        </div>
       </div>
     </div>
   </div>
