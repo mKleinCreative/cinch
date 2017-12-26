@@ -1,7 +1,11 @@
 .homepage-background {
   background-image: url("../images/background.png");
   height: 1007px;
-  width: 1600px;
+  width: 100%;
   background-repeat: no-repeat;
-  
+  background-size: cover;
+}
+
+.homepage-nav-buttons {
+  margin: 0 30px;
 }
