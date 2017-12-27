@@ -7,5 +7,31 @@
 }
 
 .homepage-nav-buttons {
+  z-index: 20;
   margin: 0 30px;
 }
+
+
+.footer-images {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.homepage-navbar,
+.homepage-tagline,
+.homepage-search-form {
+  z-index: 20;
+}
+.homepage-background::after{
+  content: " ";
+  z-index: 5;
+  display: block;
+  position: absolute;
+  height: 1007px;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, .5)
+}
+
+
