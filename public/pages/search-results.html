@@ -11,10 +11,10 @@
 </head>
 
 <body>
-  <div class="search-nav row">
-    <div class="col">
-      <nav class="navbar navbar-light br-0">
-        <button class="navbar-toggler" type="button"        aria-expanded="false" aria-label="Toggle navigation">
+  <div class="search-nav row border align-items-center">
+    <div class="col" style="margin-left: 185px;">
+      <nav class="navbar navbar-light">
+        <button class="navbar-toggler border-0" type="button"        aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
     </div>
@@ -37,40 +37,40 @@
       </nav>
     </div>
   </div>
-  <div class="container-fluid">
-    <div class="row">
-      <form>
-        <div class="form-row justify-content-center">
-          <div class="form-group col-auto">
+  <div class="container-fluid" style="margin: 22px 217px; width: 1162px; height: 1275px;">
+    <div class="row" style="margin-bottom: 44px;">
+      <form style="width: 1162px;">
+        <div class="form-row align-items-center px-auto mx-auto">
+          <div class="form-group col-auto ml-0 pl-0 mr-3" style="width: 170px; margin-left: 10px;">
             <label for="inputSport">Sport</label>
-            <select id="inputSport" class="form-control">
-              <option selected>Choose...</option>
-              <option>...</option>
-            </select>
+            <select id="inputSport" class="detail-search-input form-control">
+                <option selected>Soccer</option>
+                <option>...</option>
+              </select>
           </div>
-          <div class="form-group col-auto">
+          <div class="form-group col-auto mx-3" style="width: 170px;">
             <label for="inputType">Type</label>
-            <select id="inputType" class="form-control">
-              <option selected>Choose...</option>
+            <select id="inputType" class="detail-search-input form-control">
+              <option selected>Camps</option>
               <option>...</option>
             </select>
           </div>
-          <div class="form-group col-auto">
+          <div class="form-group col-auto mx-3" style="width: 170px;">
             <label for="inputCity">Location</label>
-            <input type="text" class="form-control" id="inputCity">
+            <input type="text" class="form-control detail-search-input" id="inputCity">
           </div>
-          <div class="form-group col-auto">
+          <div class="form-group col-auto mx-3" style="width: 170px;">
             <label for="inputZip">Start Date</label>
-            <input type="date" class="form-control" id="inputZip">
+            <input type="date" class="form-control detail-search-input" id="inputZip">
           </div>
-          <div class="form-group col-auto">
-            <button class="btn btn-dark">Search</button>
+          <div class="col-3 pt-3">
+            <button class="btn btn-cinch rounded py-3" style="width: 370px;">Search</button>
           </div>
         </div>
       </form>
     </div>
-    <div class="row">
-      <div class="col-auto">
+    <div class="row align-items-center text-center border px-5 py-3">
+      <div class="col-2">
         <div class="row">
           <img src="../images/Arsenal_FC.svg.png">
         </div>
@@ -78,21 +78,23 @@
           <span>ARSENAL FC</span>
         </div>
       </div>
-      <div class="col-auto">
+      <div class="col-2">
         <h3>SOCCER CAMP</h3>
         <span>July 20-24 9am-3pm</span>
         <span>Ages 5-14</span>
         <span>@ Mirasol Park</span>
       </div>
-      <div class="col-auto">
+      <div class="col-3">
           Arsenal FC offers players a unique look into how to train the Arsenal Way.
       </div>
-      <div class="col-auto">
+      <div class="col-1">
         $599
       </div>
-      <div class="col-auto">
-        <button class="btn btn-dark">Select</button>
-      </div>  
+      <div class="col-4 pt-3">
+        <button class="btn btn-cinch rounded py-3" style="width: 370px;">
+          Select
+        </button>
+      </div>
     </div>
   </div>
   <div class="footer m-5 p-2 containter-fluid">
