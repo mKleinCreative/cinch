@@ -37,7 +37,6 @@
 .login-container {
   height: 667px;
   width: 470px;
-  
 }
 
 .login-header {
@@ -71,7 +70,30 @@
 }
 
 .detail-search-input {
-  height: 50px;
+  height: 50px !important;
 }
 
+.detail-nav {
+  width: 100vw;
+  height: 80px;
+}
 
+.search-membership-buttons {
+  width: 144px;
+  height: 40px;
+}
+
+.detail-container {
+  margin: 50px 275px
+}
+
+.detail-location-group {
+  width: 370px;
+  height: 373px;
+}
+
+.register-cinch-submit {
+  width: 570px;
+  height: 50px;
+  margin: 0px;
+}

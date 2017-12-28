@@ -11,43 +11,46 @@
 </head>
 
 <body>
-  <div class="container">
-    <div class="row">
-      <div class="justify-content-end row">
-        <div class="col">
-          <nav class="navbar navbar-light br-0">
-            <button class="navbar-toggler" type="button" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          </nav>
-        </div>
-        <div class="row search-membership-buttons">
+  <div class="container-fluid">
+    <div class="detail-nav search-nav row border align-items-center">
+      <div class="col">
+        <nav class="navbar navbar-light br-0">
+          <button class="navbar-toggler" type="button" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      </div>
+      <div class="col-5"></div>
+      <div class="col search-membership-buttons-container mr-5">
+        <form class="form-inline">
           <div class="col">
-            <form class="form-inline">
-              <button class="btn btn-light nav-link border-0 rounded-0">
-                Login
-              </button>
-              <button class="btn nav-link border-0 rounded-0">
-                Sign Up
-              </button>
-            </form>
+            <button class="btn btn-light nav-link border-0 px-3 rounded-0 search-membership-buttons">
+              Join
+            </button>
           </div>
-        </div>
+          <div class="col">
+            <button class="btn nav-link border-0 rounded-0 search-membership-buttons">
+              Login
+            </button>
+          </div>
+        </form>
+        </nav>
       </div>
     </div>
+  </div>
+  <div class="detail-container" style="width: 1182px !important; max-width: 1182 !important;">
     <div class="row">
       <form style:"width: 1162px;">
         <div class="form-row align-items-center px-auto mx-auto">
           <div class="form-group col-auto mr-3" style="width: 170px; margin-left: 10px;">
             <label for="inputSport">Sport</label>
-            <select id="inputSport" class="form-control detail-search-input">
+            <select id="inputSport" class="detail-search-input form-control">
               <option selected>Soccer</option>
               <option>...</option>
             </select>
           </div>
           <div class="form-group col-auto mx-3" style="width: 170px;">
             <label for="inputType">Type</label>
-            <select id="inputType" class="form-control detail-search-input">
+            <select id="inputType" class="detail-search-input form-control">
             <option selected>Camps</option>
             <option>...</option>
           </select>
@@ -61,7 +64,7 @@
             <input type="date" class="form-control detail-search-input" id="inputZip">
           </div>
           <div class="col-3 pt-3">
-            <button class="btn btn-cinch rounded py-3" style="width: 360px;">Search</button>
+            <button class="btn btn-cinch rounded py-3" style="width: 370px;">Search</button>
           </div>
         </div>
       </form>
@@ -87,9 +90,9 @@
           </div>
         </div>
       </div>
-      <div class="col">
-        <ul class="list-group">
-          <li class="list-group-item mb-3">
+      <div class="col detail-location-group">
+        <ul class="list-group ">
+          <li class="list-group-item mb-3" style="width: 370px;">
             <div class="col">
               <img src="../images/Arsenal_FC.svg.png" alt="Arsenal">
             </div>
@@ -102,7 +105,7 @@
               </div>
             </div>
           </li>
-          <li class="list-group-item my-3">
+          <li class="list-group-item my-3" style="width: 370px;">
             <div class="col">
               <img src="../images/Arsenal_FC.svg.png" alt="Arsenal">
             </div>
@@ -115,7 +118,7 @@
               </div>
             </div>
           </li>
-          <li class="list-group-item my-3">
+          <li class="list-group-item my-3" style="width: 370px;">
             <div class="col">
               <img src="../images/Arsenal_FC.svg.png" alt="Arsenal">
             </div>
