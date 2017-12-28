@@ -13,58 +13,64 @@
 <body>
   <div class="container">
     <div class="row">
-      <div class="nav row">
+      <div class="justify-content-end row">
         <div class="col">
           <nav class="navbar navbar-light br-0">
             <button class="navbar-toggler" type="button" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+              <span class="navbar-toggler-icon"></span>
+            </button>
           </nav>
         </div>
-        <div class="col search-membership-buttons">
-          <form class="form-inline col">
-            <button class="btn btn-light nav-link border-0 rounded-0">Login</button>
-            <button class="btn nav-link border-0 rounded-0">Sign Up</button>
-          </form>
+        <div class="row search-membership-buttons">
+          <div class="col">
+            <form class="form-inline">
+              <button class="btn btn-light nav-link border-0 rounded-0">
+                Login
+              </button>
+              <button class="btn nav-link border-0 rounded-0">
+                Sign Up
+              </button>
+            </form>
+          </div>
         </div>
       </div>
     </div>
     <div class="row">
-      <form>
-        <div class="form-row">
-          <div class="form-group col-md-4">
+      <form style:"width: 1162px;">
+        <div class="form-row align-items-center px-auto mx-auto">
+          <div class="form-group col-auto mr-3" style="width: 170px; margin-left: 10px;">
             <label for="inputSport">Sport</label>
-            <select id="inputSport" class="form-control">
-            <option selected>Choose...</option>
-            <option>...</option>
-          </select>
+            <select id="inputSport" class="form-control detail-search-input">
+              <option selected>Soccer</option>
+              <option>...</option>
+            </select>
           </div>
-          <div class="form-group col-md-4">
+          <div class="form-group col-auto mx-3" style="width: 170px;">
             <label for="inputType">Type</label>
-            <select id="inputType" class="form-control">
-            <option selected>Choose...</option>
+            <select id="inputType" class="form-control detail-search-input">
+            <option selected>Camps</option>
             <option>...</option>
           </select>
           </div>
-          <div class="form-group col-md-6">
+          <div class="form-group col-auto mx-3" style="width: 170px;">
             <label for="inputCity">Location</label>
-            <input type="text" class="form-control" id="inputCity">
+            <input type="text" class="form-control detail-search-input" id="inputCity">
           </div>
-          <div class="form-group col-md-2">
+          <div class="form-group col-auto mx-3" style="width: 170px;">
             <label for="inputZip">Start Date</label>
-            <input type="date" class="form-control" id="inputZip">
+            <input type="date" class="form-control detail-search-input" id="inputZip">
           </div>
-          <div class="form-group">
-            <button class="btn btn-dark">Search</button>
+          <div class="col-3 pt-3">
+            <button class="btn btn-cinch rounded py-3" style="width: 360px;">Search</button>
           </div>
         </div>
       </form>
     </div>
     <div class="row">
       <div class="container col">
-        <div class="card mb-3" style="max-width: 20rem;">
+        <div class="card mb-3 detail-program-detail">
           <div class="card-body text-center">
-            <h4 class="card-title"><img src="../images/Arsenal_FC.svg.png" alt="Arsenal">Arsenal FC</h4>
+            <p class="card-title"><img src="../images/Arsenal_FC.svg.png" alt="Arsenal">Arsenal FC</p>
             <p class="card-text">July 20-24 9am-3pm</p>
             <p class="card-text">Ages 5-14</p>
             <p class="card-text">@ Mirasol Park</p>
@@ -77,13 +83,13 @@
             skills in a fun and supportive environment for a rewarding experience for all. Kick off your summer with us and
             go home a better player!</p>
             <p class="card-text"> $599</p>
+            <button class="btn btn-cinch radius-0"> Register</button>
           </div>
-          <button class="btn btn-dark radius-0"> Register</button>
         </div>
       </div>
       <div class="col">
         <ul class="list-group">
-          <li class="list-group-item">
+          <li class="list-group-item mb-3">
             <div class="col">
               <img src="../images/Arsenal_FC.svg.png" alt="Arsenal">
             </div>
@@ -96,7 +102,7 @@
               </div>
             </div>
           </li>
-          <li class="list-group-item">
+          <li class="list-group-item my-3">
             <div class="col">
               <img src="../images/Arsenal_FC.svg.png" alt="Arsenal">
             </div>
@@ -109,7 +115,7 @@
               </div>
             </div>
           </li>
-          <li class="list-group-item">
+          <li class="list-group-item my-3">
             <div class="col">
               <img src="../images/Arsenal_FC.svg.png" alt="Arsenal">
             </div>
@@ -126,56 +132,58 @@
         </ul>
       </div>
     </div>
+  </div>
+  <div class="footer m-5 p-2 containter-fluid">
     <div class="row mx-5 justify-content-around">
       <div class="col mx-5">
         <div class="list-group">
           <span class="list-group-item border-0">Cinch Sports </span>
-          <a href="#" class="list-group-item list-group-item-action list-group-item-light border-0">About Cinch</a>
-          <a href="#" class="list-group-item list-group-item-action list-group-item-light border-0">Cinch Blog</a>
-          <a href="#" class="list-group-item list-group-item-action list-group-item-light border-0">Cinch Store</a>
-          <a href="#" class="list-group-item list-group-item-action list-group-item-light border-0">Developers</a>
+          <a href="#" class="list-group-item list-group-item-action list-group-item-light border-0 py-1">About Cinch</a>
+          <a href="#" class="list-group-item list-group-item-action list-group-item-light border-0 py-1">Cinch Blog</a>
+          <a href="#" class="list-group-item list-group-item-action list-group-item-light border-0 py-1">Cinch Store</a>
+          <a href="#" class="list-group-item list-group-item-action list-group-item-light border-0 py-1">Developers</a>
         </div>
       </div>
       <div class="col">
         <div class="list-group">
           <span class="list-group-item border-0">Help </span>
-          <a href="#" class="list-group-item list-group-item-action list-group-item-light border-0">Help Center</a>
-          <a href="#" class="list-group-item list-group-item-action list-group-item-light border-0">Video School</a>
-          <a href="#" class="list-group-item list-group-item-action list-group-item-light border-0">FAQ</a>
-          <a href="#" class="list-group-item list-group-item-action list-group-item-light border-0">Forums</a>
+          <a href="#" class="list-group-item list-group-item-action list-group-item-light border-0 py-1">Help Center</a>
+          <a href="#" class="list-group-item list-group-item-action list-group-item-light border-0 py-1">Video School</a>
+          <a href="#" class="list-group-item list-group-item-action list-group-item-light border-0 py-1">FAQ</a>
+          <a href="#" class="list-group-item list-group-item-action list-group-item-light border-0 py-1">Forums</a>
         </div>
       </div>
       <div class="col">
         <div class="list-group">
           <span class="list-group-item border-0">More </span>
-          <a href="#" class="list-group-item list-group-item-action list-group-item-light border-0 mx-0">Partners</a>
-          <a href="#" class="list-group-item list-group-item-action list-group-item-light border-0 mx-0">Affiliate Program</a>
-          <a href="#" class="list-group-item list-group-item-action list-group-item-light border-0 mx-0">Donate</a>
-          <a href="#" class="list-group-item list-group-item-action list-group-item-light border-0 mx-0">Cinch Sportswear</a>
+          <a href="#" class="list-group-item list-group-item-action list-group-item-light border-0 mx-0 py-1">Partners</a>
+          <a href="#" class="list-group-item list-group-item-action list-group-item-light border-0 mx-0 py-1">Affiliate Program</a>
+          <a href="#" class="list-group-item list-group-item-action list-group-item-light border-0 mx-0 py-1">Donate</a>
+          <a href="#" class="list-group-item list-group-item-action list-group-item-light border-0 mx-0 py-1">Cinch Sportswear</a>
         </div>
       </div>
-      <div class="container col col-md-4 offset-md-1 justify-content-start">
-        <div class="row">
+      <div class="container col col-md-4 offset-md-1 mt-2 justify-content-start">
+        <div class="row pb-3">
           follow us
         </div>
-        <div class="d-flex align-self-center row">
-          <div class="col-sm-1">
+        <div class="d-flex footer-images justify-content-md-start row">
+          <div class="col-md-1 px-0 mx-0">
             <img src="../images/Twitter Icon.png" alt="Twitter">
           </div>
-          <div class="col-sm-1">
+          <div class="col-md-1 px-0 mx-0">
             <img src="../images/Facebook Icon.png" alt="Facebook">
           </div>
-          <div class="col-sm-1">
+          <div class="col-md-1 px-0 mx-0">
             <img src="../images/Google Icon.png" alt="Google Plus">
           </div>
-          <div class="col-sm-1">
+          <div class="col-md-1 px-0 mx-0">
             <img src="../images/Tumblr Icon.png" alt="Tumblr">
           </div>
         </div>
         <form class="row">
           <div class="row">
-            <div class="col mb-3">
-              <label for="subscribe">Subscribe</label>
+            <div class="col my-4">
+              <label for="subscribe" class="pb-3">Subscribe</label>
               <div class="input-group">
                 <input type="email" class="form-control rounded-0" id="subscribe" placeholder="Enter Your Email">
                 <span class="input-group-btn">
