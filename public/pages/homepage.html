@@ -1,126 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Homepage</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-    <link href="../style/master.css" rel="stylesheet">
-  </head>
-  <body>
-    <div class="container-fluid homepage-background bg-dark img-fluid">
-      <nav class="homepage-navbar navbar navbar-expand-lg row py-5 offset-md-1 justify-content-center">
-        <div class="col">
-          <a href="#" class="navbar-brand align-self-center mx-5">
-            <img src="../images/cinch(white).png" alt="Cinch Logo">
-          </a>
+
+<head>
+  <title>Homepage</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Lato:700|Montserrat:200,300,800|Roboto:500" rel="stylesheet">
+  <link href="../style/master.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container-fluid homepage-background bg-dark img-fluid">
+    <nav class="homepage-navbar navbar navbar-expand-lg row py-5 offset-md-1 justify-content-center">
+      <div class="col">
+        <a href="#" class="navbar-brand align-self-center mx-5">
+          <img src="../images/cinch(white).png" alt="Cinch Logo">
+        </a>
+      </div>
+      <div class=" d-flex flex-column collapse navbar-collapse col-5 justify-content-around">
+        <div class="navbar-nav">
+          <a class="homepage-nav-buttons nav-item nav-link btn-outline-light" href="#">Home</a>
+          <a class="homepage-nav-buttons nav-item nav-link btn-outline-light" href="#">Features</a>
+          <a class="homepage-nav-buttons nav-item nav-link btn-outline-light" href="#">Products</a>
         </div>
-        <div class=" d-flex flex-column collapse navbar-collapse col-5 justify-content-around">
-          <div class="navbar-nav">
-            <a class="homepage-nav-buttons nav-item nav-link btn-outline-light" href="#">Home</a>
-            <a class="homepage-nav-buttons nav-item nav-link btn-outline-light" href="#">Features</a>
-            <a class="homepage-nav-buttons nav-item nav-link btn-outline-light" href="#">Products</a>
+      </div>
+      <form class="form-inline col">
+        <button class="btn btn-light px-5 nav-link border-0 rounded-0">Login</button>
+        <button class="btn btn-outline-light px-5 nav-link border-0 rounded-0">Sign Up</button>
+      </form>
+    </nav>
+    <div class="container justify-content-center text-center" style="margin-top: 90px">
+      <div class="row">
+        <div class="col homepage-tagline"> 
+          <h1 class="text-white">Welcome to</h1>
+        </div> 
+      </div>
+      <div class="row">
+        <div class="col homepage-tagline"> 
+          <h1 class="text-white">Cinch Sports</h1>
+        </div> 
+      </div>
+      <div class="row justify-content-center m-3">
+        <form class="homepage-search-form text-dark">
+          <div class="form-row">
+            <div class="col-6 px-0 my-3">
+              <input type="text" class="form-control rounded-0" placeholder="Organization Name">
+            </div>
+            <div class="col-2 px-0 my-3">
+              <input type="text" class="form-control rounded-0" placeholder="Select Sport">
+            </div>
+            <div class="col-2 px-0 my-3">
+              <input type="text" class="form-control rounded-0" placeholder="Activity Type">
+            </div>
+            <div class="col-2 px-0 my-3">
+              <input type="text" class="form-control rounded-0" placeholder="City or Zip">
+            </div>
           </div>
-        </div>
-        <form class="form-inline col">
-          <button class="btn btn-light px-5 nav-link border-0 rounded-0">Login</button>
-          <button class="btn btn-outline-light px-5 nav-link border-0 rounded-0">Sign Up</button>
+          <button class="submit btn w-50 btn-light px-4 rounded-0 my-4 text-uppercase" type="submit">Search</button>
         </form>
-      </nav>
-      <div class="container justify-content-center text-center" style="margin-top: 90px">
-        <div class="row">
-          <div class="col homepage-tagline"> 
-            <h1 class="text-white">Welcome to</h1>
-          </div> 
-        </div>
-        <div class="row">
-          <div class="col homepage-tagline"> 
-            <h1 class="text-white">Cinch Sports</h1>
-          </div> 
-        </div>
-        <div class="row justify-content-center m-3">
-          <form class="homepage-search-form">
-            <div class="form-row">
-              <div class="col-6 px-0 my-3">
-                <input type="text" class="form-control rounded-0" placeholder="Organization Name">
-              </div>
-              <div class="col-2 px-0 my-3">
-                <input type="text" class="form-control rounded-0" placeholder="Select Sport">
-              </div>
-              <div class="col-2 px-0 my-3">
-                <input type="text" class="form-control rounded-0" placeholder="Activity Type">
-              </div>
-              <div class="col-2 px-0 my-3">
-                <input type="text" class="form-control rounded-0" placeholder="City or Zip">
-              </div>
-            </div>
-            <button class="submit btn w-50 btn-light px-4 rounded-0 my-4" type="submit">Search</button>
-          </form>
-        </div>
       </div>
     </div>
-    <div class="footer m-5 p-2 containter-fluid">
-      <div class="row mx-5 justify-content-around">
-        <div class="col mx-5">
-          <div class="list-group">
-            <span class="list-group-item border-0">Cinch Sports </span>
-            <a href="#" class="list-group-item list-group-item-action list-group-item-light border-0 py-1">About Cinch</a>
-            <a href="#" class="list-group-item list-group-item-action list-group-item-light border-0 py-1">Cinch Blog</a>
-            <a href="#" class="list-group-item list-group-item-action list-group-item-light border-0 py-1">Cinch Store</a>
-            <a href="#" class="list-group-item list-group-item-action list-group-item-light border-0 py-1">Developers</a>
-          </div>
-        </div>
-        <div class="col">
-          <div class="list-group">
-            <span class="list-group-item border-0">Help </span>
-            <a href="#" class="list-group-item list-group-item-action list-group-item-light border-0 py-1">Help Center</a>
-            <a href="#" class="list-group-item list-group-item-action list-group-item-light border-0 py-1">Video School</a>
-            <a href="#" class="list-group-item list-group-item-action list-group-item-light border-0 py-1">FAQ</a>
-            <a href="#" class="list-group-item list-group-item-action list-group-item-light border-0 py-1">Forums</a>
-          </div>
-        </div>
-        <div class="col">
-          <div class="list-group">
-            <span class="list-group-item border-0">More </span>
-            <a href="#" class="list-group-item list-group-item-action list-group-item-light border-0 mx-0 py-1">Partners</a>
-            <a href="#" class="list-group-item list-group-item-action list-group-item-light border-0 mx-0 py-1">Affiliate Program</a>
-            <a href="#" class="list-group-item list-group-item-action list-group-item-light border-0 mx-0 py-1">Donate</a>
-            <a href="#" class="list-group-item list-group-item-action list-group-item-light border-0 mx-0 py-1">Cinch Sportswear</a>
-          </div>
-        </div>
-        <div class="container col col-md-4 offset-md-1 mt-2 justify-content-start">
-          <div class="row pb-3">
-            follow us
-          </div>
-          <div class="d-flex footer-images justify-content-md-start row">
-            <div class="col-md-1 px-0 mx-0">
-              <img src="../images/Twitter Icon.png" alt="Twitter">
-            </div>
-            <div class="col-md-1 px-0 mx-0">
-              <img src="../images/Facebook Icon.png" alt="Facebook">
-            </div>
-            <div class="col-md-1 px-0 mx-0">
-              <img src="../images/Google Icon.png" alt="Google Plus">
-            </div>
-            <div class="col-md-1 px-0 mx-0">
-              <img src="../images/Tumblr Icon.png" alt="Tumblr">
-            </div>
-          </div>
-          <form class="row">
-            <div class="row">
-              <div class="col my-4">
-                <label for="subscribe" class="pb-3">Subscribe</label>
-                <div class="input-group">
-                  <input type="email" class="form-control rounded-0" id="subscribe" placeholder="Enter Your Email">
-                  <span class="input-group-btn">
-                    <button type="submit" class="btn btn-dark rounded-0">SIGN UP</button>
-                  </span>
-                </div>
-              </div>
-            </div>
-          </form>
+  </div>
+  <div class="footer m-5 p-2 containter-fluid">
+    <div class="row mx-5 justify-content-around">
+      <div class="col mx-5">
+        <div class="list-group">
+          <span class="list-group-item border-0 text-uppercase">Cinch Sports </span>
+          <a href="#" class="list-group-item list-group-item-action list-group-item-light border-0 py-1">About Cinch</a>
+          <a href="#" class="list-group-item list-group-item-action list-group-item-light border-0 py-1">Cinch Blog</a>
+          <a href="#" class="list-group-item list-group-item-action list-group-item-light border-0 py-1">Cinch Store</a>
+          <a href="#" class="list-group-item list-group-item-action list-group-item-light border-0 py-1">Developers</a>
         </div>
       </div>
+      <div class="col">
+        <div class="list-group">
+          <span class="list-group-item border-0 text-uppercase">Help </span>
+          <a href="#" class="list-group-item list-group-item-action list-group-item-light border-0 py-1">Help Center</a>
+          <a href="#" class="list-group-item list-group-item-action list-group-item-light border-0 py-1">Video School</a>
+          <a href="#" class="list-group-item list-group-item-action list-group-item-light border-0 py-1">FAQ</a>
+          <a href="#" class="list-group-item list-group-item-action list-group-item-light border-0 py-1">Forums</a>
+        </div>
+      </div>
+      <div class="col">
+        <div class="list-group">
+          <span class="list-group-item border-0 text-uppercase">More </span>
+          <a href="#" class="list-group-item list-group-item-action list-group-item-light border-0 mx-0 py-1">Partners</a>
+          <a href="#" class="list-group-item list-group-item-action list-group-item-light border-0 mx-0 py-1">Affiliate Program</a>
+          <a href="#" class="list-group-item list-group-item-action list-group-item-light border-0 mx-0 py-1">Donate</a>
+          <a href="#" class="list-group-item list-group-item-action list-group-item-light border-0 mx-0 py-1">Cinch Sportswear</a>
+        </div>
+      </div>
+      <div class="container col col-md-4 offset-md-1 mt-2 justify-content-start">
+        <div class="row pb-3 text-uppercase">
+          follow us
+        </div>
+        <div class="d-flex footer-images justify-content-md-start row">
+          <div class="col-md-1 px-0 mx-0">
+            <img src="../images/Twitter Icon.png" alt="Twitter">
+          </div>
+          <div class="col-md-1 px-0 mx-0">
+            <img src="../images/Facebook Icon.png" alt="Facebook">
+          </div>
+          <div class="col-md-1 px-0 mx-0">
+            <img src="../images/Google Icon.png" alt="Google Plus">
+          </div>
+          <div class="col-md-1 px-0 mx-0">
+            <img src="../images/Tumblr Icon.png" alt="Tumblr">
+          </div>
+        </div>
+        <form class="row">
+          <div class="row">
+            <div class="col my-4">
+              <label for="subscribe" class="pb-3 text-uppercase">Subscribe</label>
+              <div class="input-group">
+                <input type="email" class="form-control rounded-0" id="subscribe" placeholder="Enter Your Email">
+                <span class="input-group-btn">
+                  <button type="submit" class="btn btn-dark rounded-0">SIGN UP</button>
+                </span>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
     </div>
-  </body>
+  </div>
+</body>
 </html>
