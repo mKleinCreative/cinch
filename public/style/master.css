@@ -1,3 +1,12 @@
+body {
+  font-family: "helvetica"
+}
+
+.light-montserrat {
+  font-family: "'Montserrat', sans-serif";
+  font-weight: 200;
+}
+
 .homepage-background {
   background-image: url("../images/background.png");
   height: 1007px;
@@ -6,9 +15,6 @@
   background-size: cover;
 }
 
-body{
-  font-family: "helvetica"
-}
 
 .homepage-nav-buttons {
   z-index: 20;
