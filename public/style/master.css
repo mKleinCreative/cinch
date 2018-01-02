@@ -38,6 +38,9 @@ body {
 .homepage-search-form {
   z-index: 20;
 }
+.homepage-tagline {
+  font-size: 62pt !important;
+}
 
 .homepage-background::after {
   content: " ";
