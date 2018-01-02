@@ -4,6 +4,10 @@ body {
 
 .light-montserrat {
   font-family: "'Montserrat', sans-serif";
+  font-weight: 300;
+}
+.xlight-montserrat {
+  font-family: "'Montserrat', sans-serif";
   font-weight: 200;
 }
 
@@ -15,6 +19,9 @@ body {
   background-size: cover;
 }
 
+.homepage-form-input::placeholder {
+  color: black;
+}
 
 .homepage-nav-buttons {
   z-index: 20;
@@ -111,4 +118,8 @@ body {
 .search-input {
   height: 50px;
   width: 170px;
+}
+
+.search-logo {
+  padding-left: 150px;
 }
