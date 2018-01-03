@@ -52,6 +52,10 @@ body {
   height: 50px;
 }
 
+.homepage-form-input {
+  height: 50px;
+}
+
 .homepage-form-input::placeholder {
   color: black;
 }
@@ -176,6 +180,7 @@ body {
   font-family: 'Montserrat Light';
 }
 
+.footer-input::placeholder,
 .register-input-text::placeholder {
   color: rgba(0, 0, 0, .3);
   font-family: 'Montserrat Light';
@@ -188,4 +193,8 @@ body {
 
 .search-logo {
   padding-left: 150px;
+}
+
+.search-membership-buttons {
+  color: #757575;
 }
