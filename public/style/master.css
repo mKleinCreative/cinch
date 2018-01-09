@@ -27,6 +27,8 @@
 }
 .light-montserrat {
   font-family: 'Montserrat Light';
+  letter-spacing: 1.7pt;
+  font-size: 10pt;
 }
 .lato {
   font-family: 'Lato Bold', sans-serif;
@@ -58,6 +60,7 @@ body {
 
 .homepage-form-input::placeholder {
   color: black;
+  letter-spacing: 0pt !important; 
 }
 
 .homepage-nav-buttons {
@@ -117,6 +120,7 @@ body {
   font-family: "'Montserrat', sans-serif";
   font-weight: 300;
   font-size: 14pt;
+  letter-spacing: 0pt !important; 
 }
 
 .btn-facebook {
@@ -134,7 +138,8 @@ body {
   background-color: black;
   color: white;
   border-radius: 6;
-  font-size: 12pt;
+  font-size: 10pt;
+  letter-spacing: 1.6pt;
 }
 
 .detail-program-detail {
@@ -144,6 +149,7 @@ body {
 
 .detail-search-input {
   height: 50px !important;
+  border-radius: 3px;
 }
 
 .detail-nav {
@@ -175,15 +181,24 @@ body {
   font-size: 12pt;
 }
 
+.detail-search-input:placeholder {
+  color: rgba(0, 0, 0, .3);
+  font-family: 'Montserrat Light';
+  letter-spacing: 0pt !important; 
+  padding-left: 15px;
+}
+
 .login-input-text::placeholder {
   color: rgba(0, 0, 0, .3);
   font-family: 'Montserrat Light';
+  letter-spacing: 0pt !important; 
 }
 
 .footer-input::placeholder,
 .register-input-text::placeholder {
   color: rgba(0, 0, 0, .3);
   font-family: 'Montserrat Light';
+  letter-spacing: 0pt !important; 
 }
 
 .search-input {
@@ -193,6 +208,8 @@ body {
 
 .search-logo {
   padding-left: 150px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .search-membership-buttons {
