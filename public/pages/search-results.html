@@ -13,59 +13,59 @@
 
 <body>
   <div class="search-nav row border align-items-center">
-    <div class="col" style="margin-left: 185px;">
+    <div class="col-auto" style="margin-left: 205px; margin-right: 410px;">
       <nav class="navbar navbar-light">
         <button class="navbar-toggler border-0" type="button" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
     </div>
-    <div class="col search-logo">
+    <div class="col-auto search-logo" style="width: 515px;">
       <img src="../images/cinch(black).png" alt="Cinch Logo">
     </div>
     <div class="col" style="font-family:'Monserrat' 'sans-serif'; font-weight: 200;">
       <form class="form-inline">
-        <div class="col">
-          <button class="btn search-membership-buttons light-montserrat nav-link border rounded-0 text-uppercase" style="width: 144px;">
-            Join
-          </button>
+        <div class="col-auto px-0">
+          <button class="btn border nav-link px-3 rounded-0 search-membership-buttons light-montserrat text-uppercase">
+              Join
+            </button>
         </div>
-        <div class="col">
-          <button class="btn nav-link search-membership-buttons border-0 rounded-0 light-montserrat text-uppercase">
-            Login
-          </button>
+        <div class="col-auto px-0">
+          <button class="btn nav-link border-0 rounded-0 search-membership-buttons light-montserrat text-uppercase">
+              Login
+            </button>
         </div>
       </form>
       </nav>
     </div>
   </div>
-  <div class="container-fluid" style="margin: 22px 230px; width: 1162px; height: 1275px;">
+  <div class="container-fluid" style="margin: 22px 240px 15px; width: 1602px; height: 1275px;">
     <div class="row" style="margin-bottom: 44px;">
-      <form style="width: 1162px;">
-        <div class="form-row align-items-center px-auto mx-auto">
-          <div class="form-group col-auto ml-0 pl-0 mr-3" style="width: 185px !important; margin:0 30px;">
-            <label for="inputSport" class="text-uppercase" style="font-size: 10pt;">Sport</label>
-            <select id="inputSport" class="form-control detail-search-input">
+      <form style="width: 1200px;">
+        <div class="form-row align-items-center">
+          <div class="form-group col-auto ml-0" style="width: 185px !important; margin: 0 20px;">
+            <label for="inputSport" class="text-uppercase light-montserrat" style="letter-spacing: 1.2px; font-size: 10pt;">Sport</label>
+            <select id="inputSport" class="form-control detail-search-input light-montserrat" style="padding: 15px 10px 15px 20px; border-radius: 1px !important;" >
                 <option selected>Soccer</option>
                 <option>...</option>
               </select>
           </div>
-          <div class="form-group col-auto px-0" style="width: 185px !important; margin:0 15px;">
-            <label for="inputType" class="text-uppercase" style="font-size: 10pt; ">Type</label>
-            <select id="inputType" class="form-control detail-search-input">
+          <div class="form-group col-auto px-0" style="width: 185px !important; margin: 0 20px;">
+            <label for="inputType" class="text-uppercase light-montserrat" style="letter-spacing: 1.2px; font-size: 10pt; ">Type</label>
+            <select id="inputType" class="form-control detail-search-input light-montserrat" style="padding: 15px 10px 15px 20px; border-radius: 2px !important;" >
               <option selected>Camps</option>
-              <option>...</option>
+              <option>...</option> 
             </select>
           </div>
-          <div class="form-group col-auto px-0" style="width: 185px !important; margin:0 15px;">
-            <label for="inputCity" class="text-uppercase" style="font-size: 10pt; ">Location</label>
-            <input type="text" class="form-control detail-search-input" id="inputCity">
+          <div class="form-group col-auto px-0" style="width: 185px !important; margin:0 20px;">
+            <label for="inputCity" class="text-uppercase light-montserrat" style="letter-spacing: 1.2px; font-size: 10pt; ">Location</label>
+            <input type="text" class="form-control detail-search-input light-montserrat" placeholder="95124"  style="padding: 15px 10px 15px 20px;" id="inputCity">
           </div>
-          <div class="form-group col-auto px-0" style="width: 185px !important; margin:0 15px;">
-            <label for="inputZip" class="text-uppercase" style="font-size: 10pt; ">Start Date</label>
-            <input type="date" class="form-control detail-search-input" id="inputZip">
+          <div class="form-group col-auto px-0" style="width: 185px !important; margin:0 20px;">
+            <label for="inputZip" class="text-uppercase light-montserrat" style="letter-spacing: 1.2px; font-size: 10pt; ">Start Date</label>
+            <input type="date" class="form-control detail-search-input light-montserrat text-uppercase"  style="padding-left: 10px; color: rgb(155,155,155); padding: 15px 10px 15px 20px; letter-spacing: 0px;" id="inputZip">
           </div>
           <div class="col-3 pt-3" style="margin:14px 0px 20px 15px;">
-            <button class="light-montserrat btn btn-cinch text-uppercase py-3" style="width: 230px; border-radius: 2px;">Search</button>
+            <button class="light-montserrat btn btn-cinch text-uppercase" style="color: white; width: 260px; border-radius: 2px; margin-top: 16px; padding: 15px 0px;">Search</button>
           </div>
         </div>
       </form>
@@ -79,7 +79,7 @@
           <span class="text-uppercase light-montserrat text-nowrap" style="font-size: 12pt; letter-spacing: 1.6px;">ARSENAL FC</span>
         </div>
       </div>
-      <div class="col-3 align-items-center" style="margin-left: 45px;">
+      <div class="col-auto align-items-center" style="margin: 0px 50px 0px 65px;">
         <div class="row justify-content-center text-uppercase" style="font-size: 18pt; letter-spacing: 2pt;">
           <p class="m-0">Soccer Camp</p>
         </div>
@@ -93,22 +93,22 @@
           <p class="m-0">@ Mirasol Park </p>
         </div>
       </div>
-      <div class="col-4" style="height: 120px; width: 268px; padding-top: 15px;">
-        <div class="row justify-content-center m-0 xlight-montserrat" style="margin: 0px; font-size: 16pt; color: rgba(0, 0, 0, .7);">
+      <div class="col-auto" style="height: 120px; width: 400px !important; padding: 15px 20px;">
+        <div class="row justify-content-center xlight-montserrat" style="margin: 0px 20px; font-size: 14pt; color: rgba(0, 0, 0, .5);">
           <p class="m-0">Arsenal FC offers players a </p>
         </div>
-        <div class="row justify-content-center m-0 xlight-montserrat" style="margin: 0px; font-size: 16pt; color: rgba(0, 0, 0, .7);">
+        <div class="row justify-content-center xlight-montserrat" style="margin: 0px; font-size: 14pt; color: rgba(0, 0, 0, .5);">
           <p class="m-0">unique look into how to train</p>
         </div>
-        <div class="row justify-content-center m-0 xlight-montserrat" style="margin: 0px; font-size: 16pt; color: rgba(0, 0, 0, .7);">
+        <div class="row justify-content-center m-0 xlight-montserrat" style="margin: 0px; font-size: 14pt; color: rgba(0, 0, 0, .5);">
           <p class="m-0">the Arsenal Way.</p>
         </div>
       </div>
-      <div class="col-1 light-montserrat" style="font-size: 18pt; padding-right: 25px; padding-left: 25px; margin-right: 30px;">
+      <div class="col-auto light-montserrat" style="font-size: 18pt; padding-right: 25px; padding-left: 25px; margin-left: 30px;">
         $599
       </div>
-      <div class="col-2 px-0">
-        <button class="btn btn-cinch text-uppercase py-3 light-montserrat" style="width: 232px; border-radius: 3px">
+      <div class="col-auto px-0">
+        <button class="btn btn-cinch text-uppercase py-3 light-montserrat" style="width: 242px; border-radius: 3px; margin-left: 20px;">
           Select
         </button>
       </div>
