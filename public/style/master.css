@@ -214,10 +214,11 @@ body {
 
 .footer-input::placeholder,
 .register-input-text::placeholder {
-  color: rgba(0, 0, 0, .3);
+  color: rgba(0, 0, 0, .2);
   font-family: 'Montserrat Light';
-  letter-spacing: 0pt !important; 
-  padding-left: 10px;
+  letter-spacing: .4pt !important; 
+  padding-left: 6px;
+  font-size: 10pt;
 }
 
 .search-input {
@@ -233,4 +234,14 @@ body {
 
 .search-membership-buttons {
   color: #757575;
+}
+
+.icon-bar {
+  width: 22px;
+  height: 3px !important;
+  margin: 4px 0px;
+  padding: 1px;
+  color: black;
+  border-color: black;
+  background-color: black;
 }
