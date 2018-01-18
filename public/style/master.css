@@ -158,6 +158,12 @@ body {
   border-radius: 3px;
 }
 
+.detail-search-input-dropdown {
+  height: 50px !important;
+  border-radius: 3px;
+  background: url('../images/KaratDown.png') right 22px top 20px no-repeat;
+}
+
 .detail-nav {
   width: 100vw;
   height: 80px;
@@ -198,6 +204,7 @@ body {
   padding: 15px;
 }
 
+.detail-search-input-dropdown:placeholder,
 .detail-search-input:placeholder {
   color: rgba(0, 0, 0, .3);
   font-family: 'Montserrat Light';
